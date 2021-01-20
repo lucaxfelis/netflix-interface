@@ -24,9 +24,9 @@ body {
 
 /* Header */
 .superior-container {
-  background-image: url('../img/capa-house.jpeg');
+  background-image: url('../img/serie_cover.png');
   background-size: cover;
-  height: 95vh;
+  height: 110vh;
 }
 
 header {
@@ -60,16 +60,17 @@ header div.container {
   font-weight: normal;
   font-size: 14px;
   margin-left: 12px;
-  color: #aaaaaa;
+  color: #cccccc;
   transition: 1s ease all;
 }
 
 .left-header nav a:hover {
-  color: #666666;
+  color: #999999;
 }
 
 .left-header a.active {
   color: #ffffc9;
+  font-weight: bold;
 }
 
 .left-header a.active:hover {
@@ -119,11 +120,9 @@ header div.container {
   margin-left: -15px;
 }
 
-/* filme principal */
-.filme-principal {
-  font-size: 16px;
-  
-  height: 400px;
+/* Main Card */
+.main-card {
+  width: 36%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -131,39 +130,69 @@ header div.container {
   align-items: flex-start;
 }
 
-.filme-principal .descricao {
-  margin-top: 10px;
-  margin-bottom: 90px;
-}
-
-.filme-principal .titulo {
-  margin-top: 15%;
-  font-size: 40px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.botao {
-  background-color: rgba(0, 0, 0, 0.50);
-  border: none;
-  color: white;
-  padding: 15px 30px;
-  margin-right: 15px;
-  font-size: 12px;
-  cursor: pointer;
-  transition: .3s ease all;
-}
-
-.botao:hover {
-  background-color: white;
-  color: black;
-}
-
-.botao i {
-  margin-right: 8px;
-}
-
-.filme-principal .container {
+.main-card img.title-logo {
   width: 60%;
+  margin-top: 56px;
+}
+
+.watch-now {
+  font-size: 24px;
+  margin-top: 6px; 
+  font-weight: bold;
+  text-shadow: 2px 2px 4px var(--grey-bg);
+}
+
+.main-card .description {
+  font-size: 20px;
+  text-shadow: 2px 2px 2px var(--grey-bg);
+  margin-top: 14px;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 24px;
+}
+
+.button-watch {
+  padding: 12px 24px 12px 20px;
+  margin-right: 6px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+.button-watch p {
+  float: right;
+  margin-left: 12px;
+  font-weight: bold;
+}
+
+.button-info {
+  padding: 12px 24px 12px 20px;
+  margin-right: 6px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color:rgba(109, 109, 110, 0.7);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button-info p {
+  float: right;
+  margin-left: 12px;
+  font-weight: bold;
+}
+
+.buttons button {
+  transition: 0.2s ease;
+}
+
+.buttons button:hover {
+  opacity: 0.70;
 }
 
 .box-filme {
