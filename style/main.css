@@ -1,6 +1,7 @@
+/* General */
 :root {
   --vermelho: #E50914;
-  --preta: #141414; 
+  --grey-bg: #141414;
 }
 
 * {
@@ -9,40 +10,119 @@
   box-sizing: border-box;
 }
 
-/* elementos base */
 body {
-  background-color: var(--preta);
+  background-color: var(--grey-bg);
   font-family: 'Arial', Times, serif;
   color: white;
 }
 
-header .container {
+.container {
+  width: 100%;
+  max-width: 1245px;
+  margin: auto;
+}
+
+/* Header */
+.superior-container {
+  background-image: url('../img/capa-house.jpeg');
+  background-size: cover;
+  height: 95vh;
+}
+
+header {
+  height: 68px;
+  background-image: linear-gradient(to bottom,rgba(0,0,0, 0.7) 10%, rgba(0,0,0,0) 100%);
+}
+
+header div.container {
+  height: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+/* Left Header */
+
+.logo {
+  height: 48px;
+}
+
+.left-header {
+  height: 100%;
+  width: 36%;
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header .logo {
-  color: var(--vermelho);
-  font-family: Arial;
-  font-size: 40px;
-}
-
-header nav a {
+.left-header nav a {
   text-decoration: none;
-  color: #AAA;
-  margin-right: 10px;
+  font-weight: normal;
+  font-size: 14px;
+  margin-left: 12px;
+  color: #aaaaaa;
+  transition: 1s ease all;
 }
 
-header nav a:hover {
-  color: #FFF;
+.left-header nav a:hover {
+  color: #666666;
+}
+
+.left-header a.active {
+  color: #ffffc9;
+}
+
+.left-header a.active:hover {
+  color: #ffffc9;
+}
+
+/* Right Header */
+
+.right-header {
+  height: 100%;
+  width: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right-header nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-header a {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.right-header a.kids {
+  font-size: 14px;
+}
+
+.right-header img {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+}
+
+.right-header .profile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 52px;
+  cursor: pointer;
+  margin-left: -15px;
 }
 
 /* filme principal */
 .filme-principal {
   font-size: 16px;
-  background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50) 100%), url('../img/capa-house.jpeg');
+  
   height: 400px;
   background-size: cover;
   display: flex;
@@ -82,17 +162,13 @@ header nav a:hover {
   margin-right: 8px;
 }
 
-.container {
-  margin-left: 20px;
-}
-
 .filme-principal .container {
   width: 60%;
 }
 
 .box-filme {
-  height: 100%;
-  width: 100%;
+  height: 30%;
+  width: 30%;
   display: block;
 }
 

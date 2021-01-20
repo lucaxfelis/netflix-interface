@@ -4,47 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/main.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 
     <!-- Owl Carousel CSS-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
     <link rel="stylesheet" href="style/responsive.css">
-    <title>NETFLIX CLONE</title>
+    <title>Netflix</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h2 class="logo">NETFLIX</h2>
-        <nav>
-          <a href="#">Início</a>
-          <a href="#">Séries</a>
-          <a href="#">Filmes</a>
-          <a href="#">Documentários</a>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div class="filme-principal">
+    <div class="superior-container">
+      <header>
         <div class="container">
-          <h3 class="titulo">HOUSE OF CARDS</h3>
-          <p class="descricao">
-            Um político inescrupuloso não mede esforços para conquistar o poder
-            nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
-          </p>
-
-          <div class="botoes">
-            <button role="button" class="botao">
-              <i class="fas fa-play"></i>
-              ASSISTIR AGORA
-            </button>
-            <button role="button" class="botao">
-              <i class="fas fa-info-circle"></i>
-              MAIS INFORMAÇÕES
-            </button>
+          <div class="left-header">
+            <img src="img/netflix_logo.png" class="logo">
+            <nav>
+              <a href="#" class="active">Início</a>
+              <a href="#">Séries</a>
+              <a href="#">Filmes</a>
+              <a href="#">Bombando</a>
+              <a href="#">Minha lista</a>
+            </nav>
+          </div>
+          <div class="right-header">
+            <nav>
+              <a href="#">
+                <i class="fas fa-search"></i>
+              </a>
+              <a href="#" class="kids">INFANTIL</a>
+              <a href="#">
+                <i class="fas fa-gift"></i>
+              </a>
+              <a href="#">
+                <i class="fas fa-bell"></i>
+              </a>
+              <a class="profile-menu">
+                <img src="./img/profile-pictures/tartaruga.png" alt="">
+                <i class="fas fa-sort-down"></i>
+              </a>
+            </nav>
           </div>
         </div>
-      </div>
-    </main>
+      </header>
+      <main>
+        <div class="filme-principal">
+          <div class="container">
+            <h3 class="titulo">HOUSE OF CARDS</h3>
+            <p class="descricao">
+              Um político inescrupuloso não mede esforços para conquistar o poder
+              nos EUA neste drama vencedor do Emmy e do Globo de Ouro.
+            </p>
+            
+            <div class="botoes">
+              <button role="button" class="botao">
+                <i class="fas fa-play"></i>
+                ASSISTIR AGORA
+              </button>
+              <button role="button" class="botao">
+                <i class="fas fa-info-circle"></i>
+              MAIS INFORMAÇÕES
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
 
     <div class="carrosel-filmes">
       <div class="owl-carousel owl-theme">
