@@ -22,6 +22,79 @@ body {
   margin: auto;
 }
 
+/* Initial Page */
+
+.initial-page {
+  height: 100%;
+  width: 100%;
+  background-color: var(--grey-bg);
+  z-index: 10;
+  display: block;
+  position: fixed;
+}
+
+.initial-header {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  height: 68px;
+  background-image: linear-gradient(to bottom,rgba(0,0,0, 0.7) 10%, rgba(0,0,0,0) 100%);
+}
+
+.initial-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: -80px ;
+}
+
+.initial-menu {
+  margin: auto;
+}
+
+.initial-menu h1 {
+  font-size: 52px;
+}
+
+.initial-menu .profiles {
+  display: flex;
+  width: 60%;
+}
+
+.initial-menu h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.initial-menu .profile {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.initial-menu .profile img {
+  border-radius: 6px;
+}
+
+.initial-menu .profile p {
+  text-align: center;
+  font-size: 18px;
+  color: #999999;
+  margin-top: 6px;
+}
+
+.initial-menu .profile:hover img {
+  outline: 4px solid #ffffff;
+  outline-offset: -4px;
+  -moz-outline-radius: 6px;
+  outlinerai
+}
+
+.initial-menu .profile:hover p {
+  color: #ffffff;
+}
+
 /* Header */
 .superior-container {
   background-image: url('../img/serie_cover.png');
@@ -204,3 +277,4 @@ header div.container {
 .carrosel-filmes {
   margin-top: 5px;
 }
+
