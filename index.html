@@ -13,29 +13,29 @@
     <title>Netflix</title>
   </head>
   <body>
-    <div class="initial-page">
-      <div class="initial-header">
+    <div id="initial-page">
+      <div id="initial-header">
         <div class="container">
           <img src="img/netflix_logo.png" class="logo">
         </div>
       </div>
-      <div class="initial-content">
-        <div class="initial-menu">
+      <div id="initial-content">
+        <div id="initial-menu">
           <h1>Quem está assistindo?</h1>
           <div class="profiles">
-            <div class="profile">
+            <div class="profile" onclick="hideInitialPage(this)">
               <img src="./img/profile-pictures/mico.png" alt="">
               <p>Mico</p>
             </div>
-            <div class="profile">
+            <div class="profile" onclick="hideInitialPage(this)">
               <img src="./img/profile-pictures/onça_pintada.png" alt="">
               <p>Onça</p>
             </div>
-            <div class="profile">
+            <div class="profile" onclick="hideInitialPage(this)"> 
               <img src="./img/profile-pictures/ra.png" alt="">
               <p>Rã</p>
             </div>
-            <div class="profile">
+            <div class="profile" onclick="hideInitialPage(this)">
               <img src="./img/profile-pictures/tartaruga.png" alt="">
               <p>Tartaruga</p>
             </div>
@@ -70,7 +70,7 @@
                 <i class="fas fa-bell"></i>
               </a>
               <a class="profile-menu">
-                <img src="./img/profile-pictures/tartaruga.png" alt="">
+                <img id="active-profile" src="" alt="">
                 <i class="fas fa-sort-down"></i>
               </a>
             </nav>
@@ -135,6 +135,7 @@
       </div>
     </div>
 
+    <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/61108b5e1a.js"></script>
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
