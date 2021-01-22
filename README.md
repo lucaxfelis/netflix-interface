@@ -1,6 +1,6 @@
 # Recriando a Interface da Netflix (:construction: Em desenvolvimento! :construction:)
 
-Atividade referente ao Bootcamp Avanade Angular Developer produzido pela Digital Innovation One rocket, que propõe uma recriação aproximada da página inicial da Netflix abordando tecnologias como HTML, CSS e JavaScript. Esse projeto é baseado no vídeo tutorial do expert [Felipe Aguiar](https://www.linkedin.com/in/felipe-aguiar-047/), disponibilizado na plataforma da Digital Innovation One e chamado "Recriando a Interface do Netflix".
+Atividade referente ao Bootcamp Avanade Angular Developer produzido pela Digital Innovation One, que propõe uma recriação aproximada da página inicial da Netflix abordando tecnologias como HTML, CSS e JavaScript. Esse projeto é baseado no vídeo tutorial do expert [Felipe Aguiar](https://www.linkedin.com/in/felipe-aguiar-047/), disponibilizado na plataforma da Digital Innovation One e chamado "Recriando a Interface do Netflix".
 
 Você pode conferir a página [aqui](https://lucaxfelis.github.io/netflix-interface/).
 
