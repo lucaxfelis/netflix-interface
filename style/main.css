@@ -96,9 +96,10 @@ body {
 
 /* Header */
 .superior-container {
-  background-image: url('../img/serie_cover.png');
+  background-image: url('../img/cover.jpg');
   background-size: cover;
   height: 110vh;
+  position: relative;
 }
 
 header {
@@ -273,7 +274,38 @@ header div.container {
   display: block;
 }
 
-.carrosel-filmes {
-  margin-top: 5px;
+/* Bottom Background */
+
+#bottom-background {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 128px;
+  background-image: linear-gradient(rgba(20, 20, 20, 0) 0px, rgba(20, 20, 20, 0.15) 15%, rgba(20, 20, 20, 0.35) 29%, rgba(20, 20, 20, 0.58) 44%, rgb(20, 20, 20) 68%, rgb(20, 20, 20) 100%);
 }
 
+/* Carousel */
+
+.carousel {
+  margin: auto;
+  width: 100%;
+  max-width: 1245px;
+}
+
+.carousel.first {
+  margin-top: -128px;
+}
+
+.carousel .item {
+  width: 100%;
+}
+
+.carousel .item img {
+  border-radius: 4px;
+}
+
+.carousel h3 {
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+}
