@@ -6,7 +6,14 @@ Você pode conferir a página [aqui](https://lucaxfelis.github.io/netflix-interf
 
 ## Implementações extras
 
-Além dos componentes desenvolvidos no vídeo tutorial, eu realizei implementações extras de um menu de navegação superior direito, um degradê no header da página e algumas alterações no layout, além do favicon presente na barra de título. Também foi adicionado uma "página extra", que permite que o usuário escolha o perfil ativo da seção. Todas essas modificações foram adicionadas visando tornar o projeto mais parecido com o layout original e atual da plataforma Netflix.
+Além dos componentes desenvolvidos no vídeo tutorial, eu realizei implementações extras a fim de tornar o projeto o mais semelhante possível com a plataforma atual da Netflix:
+
+* Mudança no layout de navegação superior
+* Mudança no layout do card principal
+* Favicon
+* Página inicial para escolha de usuário
+* Imagem e nome de usuário dinâmicos
+* Mudança no layout dos carrosséis de imagens
 
 ## Tecnologias utilizadas
 * HTML
@@ -14,3 +21,11 @@ Além dos componentes desenvolvidos no vídeo tutorial, eu realizei implementaç
 * JavaScript
 * JQuery
 * Owl Carousel plugin
+
+## Layout Inicial
+
+![first layout](./img/layouts/first_layout.png)
+
+## Layout Atual
+
+![actual layout](./img/layouts/actual_layout.png)
